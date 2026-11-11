@@ -1,0 +1,19 @@
+/* applyward layout compositions (phase 2). Loaded after identity.css. */
+.aw-planner{background:var(--card);border:2px solid var(--line);border-radius:18px;padding:1.5rem}
+.aw-rail{list-style:none;padding:0;margin:0;position:relative}
+.aw-rail::before{content:"";position:absolute;left:1.2rem;top:1rem;bottom:1rem;width:4px;background:#ECEAFF;border-radius:2px}
+.aw-rail li{display:flex;gap:1rem;align-items:flex-start;padding:.6rem 0;position:relative}
+.aw-rail p{margin:.4rem 0 0;font-size:1.02rem}
+.aw-n{flex:none;width:2.6rem;height:2.6rem;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;font:600 1.05rem var(--font-display);position:relative}
+.aw-chip{display:inline-block;background:#DDF6EE;color:#0B6B54;font:600 .85rem var(--font-display);padding:.35rem .8rem;border-radius:999px;margin:.75rem 0 0}
+.hero-card::after{content:none}
+.aw-steps .journey-grid{display:block;position:relative;padding-left:0}
+.aw-steps .journey-card{display:grid;grid-template-columns:3.5rem 1fr;column-gap:1rem;border:2px solid var(--line);margin-bottom:.75rem}
+.aw-steps .journey-card>*:not(.journey-step){grid-column:2}
+.aw-steps .journey-step{grid-row:1/span 3;width:2.8rem;height:2.8rem}
+.aw-q{font:600 1.15rem var(--font-display);margin:0 0 .5rem}
+.aw-seg{list-style:none;display:flex;gap:4px;padding:0;margin:0 0 .5rem}
+.aw-seg li{flex:1;height:.8rem;background:#ECEAFF;border-radius:3px}.aw-seg li.on{background:var(--accent)}
+.page-quiz .progress{display:none}.page-quiz .tiny.muted{display:none}
+.aw-head{background:var(--card);border:2px solid var(--line);border-left:10px solid var(--accent);border-radius:16px;padding:1.75rem;margin-bottom:1.5rem}
+.aw-step{margin:0 0 1rem}
