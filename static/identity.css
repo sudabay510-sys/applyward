@@ -1,0 +1,39 @@
+/* Applyward identity layer, Nov 2026 refresh: Accessible academic planner. Loaded after brand.css; visual only. */
+:root{--bg:#F6F5FD;--bg-alt:#ECEAFF;--card:#FFFFFF;--ink:#1A1C3A;--muted:#4F5278;--line:#C9C6EA;--accent:#3A2FB8;--accent-2:#2C2390;--on-accent:#FFFFFF;--hi:#2EC4A0;--radius:14px;--focus:#FF7A59;
+--font-display:'Lexend', system-ui, sans-serif;--font-body:'Atkinson Hyperlegible', system-ui, sans-serif;--tracking:-0.01em;--cta-band-bg:#3A2FB8;--cta-band-ink:#FFFFFF;--cta-band-btn:#B8F0DF;--cta-band-btn-ink:#1A1C3A;
+--shadow-card:0 14px 34px rgba(0,0,0,.10);--shadow-btn:none}
+body{font-family:var(--font-body);background:var(--bg);color:var(--ink)}
+.skip:focus{background:var(--card);color:var(--ink);outline:3px solid var(--focus)}
+.btn:focus-visible,.choice:focus-within,a:focus-visible,.input:focus{outline:3px solid var(--focus);outline-offset:2px}
+.choice:has(input:checked){border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
+.choice input{accent-color:var(--accent);width:1.15rem;height:1.15rem;flex:none}
+.choice{min-height:3.25rem}
+.btn{min-height:2.75rem}
+.nav a.btn-primary,.nav a.btn-primary:hover{color:var(--on-accent)}
+.safety{border-left-width:6px;border-left-style:solid}
+@media (max-width:560px){.choice{padding:.9rem 1rem}.quiz-q{font-size:1.45rem}}
+
+html{font-size:106.25%}
+body{line-height:1.65}
+h1,h2,h3{font-weight:600;letter-spacing:-.01em}
+a{text-decoration:underline;text-underline-offset:3px}
+.btn{text-decoration:none;min-height:3rem;font-size:1rem}
+.hero{background:linear-gradient(180deg,#ECEAFF,var(--bg))}
+.hero-card{border:2px solid var(--line);box-shadow:none}
+.hero-card::after{content:"Check dates on official sites";display:inline-block;margin-top:1rem;background:#DDF6EE;color:#0B6B54;font:600 .72rem var(--font-display);padding:.2rem .55rem;border-radius:999px}
+.steps{position:relative;padding-left:0}
+.steps li{border:2px solid var(--line);box-shadow:none}
+.step-num,.journey-step{background:var(--accent);color:#FFFFFF;width:2.6rem;height:2.6rem;font-family:var(--font-display)}
+.choices{gap:.8rem}
+.choice{border:2px solid var(--line);min-height:3.6rem;align-items:center;font-size:1.05rem}
+.choice input{width:1.35rem;height:1.35rem;margin-top:0}
+.choice:has(input:checked){background:#ECEAFF;border-color:var(--accent);box-shadow:none}
+.choice:has(input:checked) strong::after{content:"  ✓ selected";font-weight:400;font-size:.9rem;color:var(--accent)}
+.progress{height:.8rem;background:#ECEAFF}.progress-bar{background:var(--accent)}
+.page-quiz .tiny.muted{font-size:1rem;font-weight:700;color:var(--ink)}
+.plan-preview,.plan-full,.plan-locked{counter-reset:wk}
+.plan-section{counter-increment:wk;border:2px solid var(--line);border-left:8px solid var(--accent);position:relative;padding-left:1.5rem}
+.plan-section h3::before{content:"Step " counter(wk) " · ";color:var(--accent)}
+.lock-banner{border:2px solid var(--accent);background:#FFFFFF}
+.input{border:2px solid var(--line);min-height:3rem}
+.safety{background:#FFE6DE;border-color:#FF7A59;border-left-color:#A8361A}

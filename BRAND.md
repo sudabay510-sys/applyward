@@ -59,3 +59,25 @@ Supportive older sibling: clear steps, zero judgment, honest about what nobody c
 - Offer to write essays.
 - Fake testimonials, user counts, stats, or press logos.
 - Countdown timers, “spots left”, or other urgency/scare copy.
+
+
+## Identity refresh (Nov 2026)
+
+Visual layer only (`static/identity.css`, `static/logo.svg`, Google Fonts URL). Quiz questions, plan generation, routes, pricing, checkout/unlock, and safety notes are unchanged.
+
+- **Concept:** Accessible academic planner. Readability is the brand: big Lexend type, Atkinson Hyperlegible body, numbered progress rails, and ‘check the official site’ chips everywhere a date appears.
+- **Type:** Lexend (display) / Atkinson Hyperlegible (body)
+- **Voice:** A supportive older sibling: plain words, small steps, zero judgment, and honest about what nobody can promise.
+- **Persona (design assumption, not research):** Jasmine, first-generation applicant, and her mom (assumption): High-school senior applying to 4–7 programs. Nobody at home has done this before.
+
+| Color | Hex |
+|---|---|
+| Lavender paper | `#F6F5FD` |
+| Indigo | `#3A2FB8` |
+| Mint | `#2EC4A0` |
+| Mint text | `#0B6B54` |
+| Coral | `#FF7A59` |
+| Coral text | `#A8361A` |
+| Night ink | `#1A1C3A` |
+
+Full brand guide, persona, and journey: `quiz-to-plan-redesign/products/applyward/brand.html`.
