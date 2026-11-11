@@ -101,7 +101,7 @@ BRAND = {
     ],
     "disclaimer_short": "Organizing help only. Not admissions counseling or financial advice. No admission, aid, or scholarship guarantees.",
     "disclaimer_long": "Applyward provides general application-organizing tools and education. It is not affiliated with any school, testing agency, or government aid program, does not guarantee admission, financial aid, or scholarships, and is not professional admissions counseling, legal, or financial advice. Always confirm requirements and deadlines with official sources. Users under 13 should not use this site. No payments are processed on this site.",
-    "font_url": "https://fonts.googleapis.com/css2?family=Lexend:wght@500;600;700&family=Atkinson+Hyperlegible:wght@400;700&display=swap",
+    "font_url": "https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap",
     "fonts": ("Lexend", "Atkinson Hyperlegible"),
     "questions": Q, "generate_plan": plan,
     "voice": "Supportive older sibling: clear steps, zero judgment, honest about what nobody can promise.",
